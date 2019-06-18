@@ -11,7 +11,10 @@ namespace VerificarPar
 
           Console.WriteLine("Digite um número");
           numero = int.Parse(Console.ReadLine());
-          
+
+          if(numero % 2 == 0)
+            Console.WriteLine("O número digitado é PAR");
+            
 
           
         }
