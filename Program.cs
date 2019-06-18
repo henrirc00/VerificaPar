@@ -6,7 +6,14 @@ namespace VerificarPar
     {
         static void Main(string[] args)
         {
-            
+          //Declaração da variavel numero do tipo Inteiro(int) 
+          int numero;
+
+          Console.WriteLine("Digite um número");
+          numero = int.Parse(Console.ReadLine());
+          
+
+          
         }
     }
 }
